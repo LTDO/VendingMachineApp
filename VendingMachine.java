@@ -1,9 +1,9 @@
 public class VendingMachine {
 
     public int stockCount = 0;
-    int softDrinkCount = 0;
-    int saltySnackCount = 0;
-    int chocyCount = 0;
+    public int softDrinkCount = 0;
+    public int saltySnackCount = 0;
+    public int chocyCount = 0;
 
     VendingMachine(int softDrinkCount, int saltySnackCount, int chocyCount) {
         this.softDrinkCount = softDrinkCount;
