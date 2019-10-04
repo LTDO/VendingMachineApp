@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e354ed41-e8a0-4fba-9381-534401e092bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/RunMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/VendingMachine.java" afterDir="false" />
     </list>
@@ -18,7 +20,8 @@
   <component name="ProjectId" id="1Rgd8ztJ9xcQOECm4A6XIjLFxQC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/VendingMachineApp-master" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +53,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

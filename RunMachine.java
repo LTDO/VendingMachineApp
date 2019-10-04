@@ -1,25 +1,24 @@
 public class RunMachine{
-
     public static void main(String[] args) {
 
         VendingMachine product = new VendingMachine();
 
-        //Chocolates
-        Chocolate barOne = new Chocolate("Energy Bar");
-        product.addStock(barOne, 1);
-        product.buy(barOne);
-        System.out.println(barOne.getStock());
+        //Chocolate
+        Chocolate bar = new Chocolate("Bar One");
+        product.addStock(bar, 0);
+        product.buy(bar);
+        System.out.println(product.getStock());
 
-        //SoftDrinks
-        SoftDrink coke = new SoftDrink("Coke");
-        product.addStock(coke, 1);
+        //Soft Drinks
+        SoftDrink coke = new SoftDrink("Cocoa Cola");
+        product.addStock(coke, 0);
         product.buy(coke);
-        System.out.println(coke.getStock());
+        System.out.println(product.getStock());
 
-        //Salty Snacks
-        SaltySnack snack = new SaltySnack("Simba");
-        product.addStock(snack, 2);
+        //Salty  Snack
+        SaltySnack snack = new SaltySnack("Snacks");
+        product.addStock(snack, 0);
         product.buy(snack);
-        System.out.println(snack.getStock());
+        System.out.println(product.getStock());
     }
 }
