@@ -1,11 +1,11 @@
-public class VendingMachine {
+class VendingMachine {
 
-    public int stockCount = 0;
-    public int softDrinkCount;
-    public int saltySnackCount;
-    public int chocolateCount;
+    private int stockCount = 0;
+    private int softDrinkCount;
+    private int saltySnackCount;
+    private int chocolateCount;
 
-    VendingMachine(int softDrinkCount, int saltySnackCount, int chocolateCount) {
+    private VendingMachine(int softDrinkCount, int saltySnackCount, int chocolateCount) {
         this.softDrinkCount = softDrinkCount;
         this.saltySnackCount = saltySnackCount;
         this.chocolateCount = chocolateCount;
@@ -16,7 +16,7 @@ public class VendingMachine {
     }
 
     //ADD STOCK
-    public void addStock(Product prod, int newStock) {
+    void addStock(Product prod, int newStock) {
 
         if(prod instanceof Chocolate){
             chocolateCount += newStock;
@@ -29,12 +29,12 @@ public class VendingMachine {
         }
         else{
             stockCount += newStock;
-            throw new ProductNotFoundException();
+//            throw new ProductNotFoundException();
         }
     }
 
     //BUY METHOD
-    public void buy(Product product) throws InvalidProductException, ProductNotFoundException {
+    void buy(Product product) throws InvalidProductException, ProductNotFoundException {
         if(product != null) {
             if (product instanceof SoftDrink) {
                 if (softDrinkCount <= 0) {
@@ -68,16 +68,16 @@ public class VendingMachine {
     }
 
     //GET STOCK
-    public int totalStockCount() {
+    int totalStockCount() {
         return  softDrinkCount + saltySnackCount + chocolateCount;
      }
-     public int getSoftDrinkCount(){
+     int getSoftDrinkCount(){
         return softDrinkCount;
      }
-    public int getChocolateCount(){
+    int getChocolateCount(){
         return chocolateCount;
     }
-    public int getSaltySnackCount(){
+    int getSaltySnackCount(){
         return saltySnackCount;
     }
 }
