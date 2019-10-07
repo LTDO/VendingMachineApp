@@ -36,7 +36,7 @@ public class VendingMachine {
     //BUY METHOD
     public void buy(Product product) throws InvalidProductException, ProductNotFoundException {
         if(product != null) {
-            if (product instanceof SoftDrink) { 
+            if (product instanceof SoftDrink) {
                 if (softDrinkCount <= 0) {
                     throw new SoftDrinkNotFoundException();
                 } else {

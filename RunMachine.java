@@ -10,6 +10,7 @@ public class RunMachine{
         Chocolate bar = new Chocolate("Bar One");
         product.addStock(bar, 0);
         product.buy(bar);
+        product.buy(bar);
         System.out.println(">>>>" + " " + product.getChocolateCount() + " chockies left");
         System.out.println();
 
@@ -18,9 +19,9 @@ public class RunMachine{
         saltySnacks.append("\n" + "1. Pretzel");
         System.out.println(saltySnacks);
         SaltySnack snack = new SaltySnack("Pretzels");
-        product.addStock(snack, snack.getSaltySnackCount());
+        product.addStock(snack, 0);
         product.buy(snack);
-        System.out.println(">>> " + snack.getSaltySnackCount() + " snacks left");
+        System.out.println(">>> " + product.getSaltySnackCount() + " snacks left");
         System.out.println();
 
 
@@ -29,10 +30,10 @@ public class RunMachine{
         buildSoftDrink.append("\n" + "1. Low sugar Sprite: ");
         System.out.println(buildSoftDrink);
         SoftDrink coke = new SoftDrink("Low sugar Sprite");
-        product.addStock(coke, coke.getSoftDrinkCount());
+        product.addStock(coke, 0);
         product.buy(coke);
         product.buy(coke);
-        System.out.println(">>> " + coke.getSoftDrinkCount() + " drinks left");
+        System.out.println(">>> " + product.getSoftDrinkCount() + " drinks left");
         System.out.println();
 
         StringBuilder totProducts = new StringBuilder("Total stock for all Products");

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e354ed41-e8a0-4fba-9381-534401e092bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/VendingMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VendingMachine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvalidProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/InvalidProductException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/RunMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/VendingMachine.java" afterDir="false" />
     </list>
