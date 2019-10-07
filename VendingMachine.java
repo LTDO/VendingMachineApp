@@ -29,7 +29,6 @@ class VendingMachine {
         }
         else{
             stockCount += newStock;
-//            throw new ProductNotFoundException();
         }
     }
 

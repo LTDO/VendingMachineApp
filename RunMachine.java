@@ -26,6 +26,7 @@ public class RunMachine{
             SaltySnack snack = new SaltySnack("Pretzels");
             product.addStock(snack, 0);
             product.buy(snack);
+            product.buy(snack);
             System.out.println(">>> " + product.getSaltySnackCount() + " snacks left");
             System.out.println();
         }catch (SaltySnackNotFoundException salty){
