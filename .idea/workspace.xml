@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e354ed41-e8a0-4fba-9381-534401e092bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/VendingMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VendingMachine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChocolateNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChocolateNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvalidProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/InvalidProductException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/RunMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaltySnackNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SaltySnackNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/VendingMachine.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,6 +38,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunMachine" />
+      <module name="VendingMachine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunMachine" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
