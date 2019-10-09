@@ -1,6 +1,6 @@
 class VendingMachine {
 
-    private int stockCount = 0;
+//    private int stockCount = 0;
     private int softDrinkCount;
     private int saltySnackCount;
     private int chocolateCount;
@@ -28,7 +28,7 @@ class VendingMachine {
             saltySnackCount += newStock;
         }
         else{
-            stockCount += newStock;
+            newStock++;
         }
     }
 
@@ -40,14 +40,12 @@ class VendingMachine {
                     throw new SoftDrinkNotFoundException();
                 } else {
                     softDrinkCount--;
-                    stockCount--;
                 }
             } else if(product instanceof Chocolate){
                 if(chocolateCount <= 0){
                     throw new ChocolateNotFoundException();
                 }else{
                     chocolateCount--;
-                    stockCount--;
                 }
             }
             else if(product instanceof SaltySnack){
@@ -55,7 +53,6 @@ class VendingMachine {
                     throw new SoftDrinkNotFoundException();
                 } else{
                     saltySnackCount--;
-                    stockCount--;
                 }
             }
             else{
